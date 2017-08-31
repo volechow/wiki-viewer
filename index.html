@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<!-- Setting metadata -->
-	<meta charset="utf-8">
-	<title>Wiki Viewer</title>
-	<meta name="description" content="Search wikipedia for articles.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Victor Olechow">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="bootstrap.min.css">
-  	<link rel="stylesheet" href="style.css">
+  <!-- Setting metadata -->
+  <meta charset="utf-8">
+  <title>Wiki Viewer</title>
+  <meta name="description" content="Search wikipedia for articles.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Victor Olechow">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  	<div class="container clear-top" id="main">
-		<div class="row">
-        	<div class="col-xs-12">
-			<br>
-			<br>
-				<form class="form-inline">
-					<div class="form-group">
-						<input class="form-control" placeholder="Query Wiki" id="query">
-						<a id="random" class="btn btn-default" href="https://en.wikipedia.org/wiki/Special:Random">Random</a>
-					</div>
-				</form>
-			<br>
-			<br>
-			</div>
-			<div class="col-xs-12" id="results" class="list-group"></div>
-		</div>  
-	</div>
-
-	<footer class="footer">
-		<div class="container">
-			<p>Victor Olechow &#169; 2017. All Rights Reserved</p>
-		</div>
-	</footer>
-
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript" src="bootstrap.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+  <div class="container clear-top" id="main">
+    <div class="row">
+      
+      <div class="col-xs-12">
+        <br>
+        <br>
+        <form class="form-inline">
+          <div class="form-group">
+            <input class="form-control" placeholder="Query Wiki" id="query">
+            <a id="random" class="btn btn-default" href="https://en.wikipedia.org/wiki/Special:Random">Random</a>
+          </div>
+        </form>
+        <br>
+        <br>
+      </div>
+      
+      <div class="col-xs-12" id="results" class="list-group"></div>
+    </div>  
+  </div>
 </body>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>

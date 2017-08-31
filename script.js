@@ -16,6 +16,7 @@ function querySites(query) {
 $( document ).ready(function() {
 	var query = "Main Page";
 	$("#results").empty();
+	
 	$("#query").keyup(function() {
 		query = $( this ).val();
 		$("#results").empty();

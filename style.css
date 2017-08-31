@@ -17,7 +17,7 @@ footer {
 	height:1px;
 }
 
-.form-control {
+.form-control, .form-control:focus {
 	background-color: #263238;
 	color:white;
 	border-color:white;
